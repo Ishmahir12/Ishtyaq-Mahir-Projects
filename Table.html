@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- Below the table starts-->
+ <title>Table Challenge</title>
+ <style>
+ td, th { border: 1px solid #CCC; }
+ table { border: 1px solid black; }
+ </style>
+</head>
+
+<body>
+  <!-- spacing of the table-->
+  <table cellspacing = '5'>
+    <caption>Your Content Here</caption>
+
+    <colgroup span="4"></colgroup>
+
+    <tr>
+    <th rowspan="2"></th> <!-- code below helps me put a title on my header-->
+    <th colspan="2">A common header for two subheads</th>
+    <th rowspan="2">Header 3</th>
+    </tr>
+    <tr>
+    <span>
+      <!--Allows me to make my header-->
+    <th>Header 1</th>
+    <th>Header 2</th>
+    </span>
+    </tr>
+    <tr>
+      <!-- Below is the rows of the table-->
+    <th scope="row">Thing A</th>
+    <td>data A1</td>
+    <td>data A2</td>
+    <td>data A3</td>
+    </tr>
+    <tr>
+    <th scope="row">Thing B</th>
+    <td>data B1</td>
+    <td>data B2</td>
+    <td>data B3</td>
+    </tr>
+    <tr>
+    <th scope="row">Thing C</th>
+    <td>data C1</td>
+    <td>data C2</td>
+    <td>data C3</td>
+    </tr>
+
+    </table>
+    </body>
+    </html>
